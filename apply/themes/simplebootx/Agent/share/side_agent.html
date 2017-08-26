@@ -1,0 +1,87 @@
+<style>
+    .side_btns{
+        width:162px;
+        margin:10px auto 10px auto;
+    }
+    .side_btns .row{
+        margin:5px auto;
+        padding:5px 0;
+        text-align:center;
+    }   
+    .side_btns button{
+        width:100px;
+        margin:0 auto;
+    }
+    </style>
+
+
+<div class="center_left">
+    <div class="container side_btns">       
+
+    </div>
+    <div class="aside_nav">
+        <ul>
+            <h3><em class="fa fa-file normal"></em><span>游戏管理</span></h3>
+            <li id="Game_apply_game"><a href="{:U('Agent/Game/apply_game')}">添加游戏</a></li>
+            <li id="Game_mygames"><a href="{:U('Agent/Game/mygames')}">我的游戏</a></li>
+
+<!--            <li id="toSub"><a href="{:U('Agent/Game/toSub')}">游戏分发</a></li>
+            <li id="sub_mygames"><a href="{:U('Agent/Game/sub_mygames')}">下级游戏</a></li>-->
+            
+            <!--<li id="generateApp"><a href="{:U('Agent/Game/generateApp')}">生成APP</a></li>-->
+        </ul>
+        <!--<ul class="user_management">
+            <h3><em class="fa fa-sitemap normal"></em><span>推广中心</span></h3>
+            <li id="promote_plink"><a href="{:U('Agent/promote/plink')}">推广链接</a></li>
+        </ul>-->
+       <ul class="Date_center">
+            <h3><em class="fa fa-bar-chart normal"></em><span>数据中心</span></h3>
+            <li id="DataMemAccount_index"><a href="{:U('Agent/DataMemAccount/index')}">玩家帐号明细</a></li>
+            <!--<li id="Data_member"><a href="{:U('Agent/Data/member')}">玩家注册明细</a></li>-->
+            <!--<li id="DataMemCharge_index"><a href="{:U('Agent/DataMemCharge/index')}">玩家充值明细</a></li>-->
+            <li id="DataReport_index"><a href="{:U('Agent/DataReport/index')}">统计报表</a></li>
+            
+            <!--<li id="memGmRechargeRecord"><a href="{:U('Agent/Data/memGmRechargeRecord')}">玩家充值订单记录</a></li>-->
+<!--            <li id="Data_getUserPayment"><a href="{:U('Agent/Data/getUserPayment')}">玩家{:C(CURRENCY_NAME)}充值明细</a></li>
+            <li id="Data_getGamePTBCheck"><a href="{:U('Agent/Data/getGamePTBCheck')}">玩家{:C(CURRENCY_NAME)}消费明细</a></li>
+            <li id="Data_PtbAgentChargeRecord"><a href="{:U('Agent/Data/PtbAgentChargeRecord')}">渠道{:C(CURRENCY_NAME)}充值明细</a></li>
+            <li id="Data_getUserPTBValidityDuration"><a href="{:U('Agent/Data/getUserPTBValidityDuration')}">玩家{:C(CURRENCY_NAME)}余额</a></li>-->
+        </ul>
+        <ul class="user_agent">
+            <h3><em class="fa fa-group normal"></em><span>渠道管理</span></h3>
+            <li id="Ucenter_subAgent"><a href="{:U('Agent/Ucenter/subAgent')}">渠道列表</a></li>
+            <!--<li id="ucenter_subAgentInfo"><a href="{:U('Agent/ucenter/subAgentInfo')}">渠道信息</a></li>-->
+        </ul>
+        
+<!--        <ul class="App_customization">
+            <h3><em></em><span>APP定制中心</span></h3>
+            <li><a href="#">定制广告位</a></li>
+            <li><a href="#">游戏列表排序</a></li>
+        </ul>-->
+         <ul class="user_management">
+            <h3><em class="fa fa-gears normal"></em><span>账户管理</span></h3>
+            <!--<li id="checkvipstate"><a href="{:U('Agent/ucenter/checkvipstate')}">会员申请</a></li>-->
+            <!--<li id="tovip"><a href="{:U('Agent/ucenter/tovip')}">实名认证</a></li>-->
+            <li id="Ucenter_security"><a href="{:U('Agent/Ucenter/security')}">安全中心</a></li>
+        </ul>
+    </div>
+    
+    <script>
+        var current_li="{:I('path.0')}_{:I('path.1')}";   
+        succAsideID(current_li);  
+        
+        $(".aside_nav ul h3").css("cursor","pointer");        
+        $(".aside_nav li").hide();
+        $(".aside_nav li").each(function(){
+            var id=$(this).attr("id");
+            if(id===current_li){
+//                $("#"+id).parent("ul").siblings("ul").children("li").hide();
+                $("#"+id).parent("ul").children("li").show();
+            }
+        });
+        $(".aside_nav ul h3").click(function(){
+            $(".aside_nav li").hide();
+            $(this).parent("ul").children("li").show();
+        });
+    </script>
+</div>

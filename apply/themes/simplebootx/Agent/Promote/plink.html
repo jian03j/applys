@@ -1,0 +1,110 @@
+<agenttpl file="user_center_header" />
+<section>
+    <div class="user_center main mygameCenter">
+        <div class="banner_1">
+            
+        </div>
+        <style>
+            .content_blocks .row{
+                margin:20px 0;
+            }
+            .content_blocks {
+                border:1px solid #ccc;
+                padding:0 20px 20px 20px;
+                margin:20px;
+                height:250px;
+            }
+            
+            .content_blocks_header{
+                font-size:24px;
+                text-align: center;
+                border-bottom:1px solid #ccc;
+                padding:10px 0;
+            }
+            .content_blocks_header i{
+                font-size:30px;
+                width:35px;
+                color:#0098F1;
+            }
+        </style>
+        <div class="user_center_main page-content">
+            <agenttpl file="share/side" />
+            <div class="page-right">
+                
+                 <div class="container" style="width:960px;margin-top:30px;">
+                        <ul class="breadcrumb">
+                            <li><a href="{$urls.index}">首页</a></li>
+                            <li class="active">推广中心</li>
+                        </ul>
+                    </div>
+                
+                <div class='container' style='width:960px;'>
+<!--                    <div class='row' style='font-size:20px;padding:20px 0 20px 10px;border-bottom:1px solid #aaa;'>
+                        <h3>推广中心</h3>
+                    </div>-->
+                    
+                    <div class='row'>
+                        <div class='col-md-5 content_blocks'>
+                            <div class='row content_blocks_header'>
+                                <i class="fa fa-sitemap"></i>
+                                推广链接
+                            </div>
+                            <div class='row'>
+                                <input type="text" class="form-control" value="{$mylink}" disabled="disabled" />
+                            </div>
+                            <div class='row'>
+                                <a href="javascript:;" class="btn btn-success btn-sm link_copy_btn" data-clipboard-text="{$mylink}" 
+                                data-link="{$mylink}">复制链接</a>
+                            </div>                       
+                        </div>
+                    
+                        <div class='col-md-5 content_blocks'>
+                            <div class='row content_blocks_header'>
+                                <i class="fa fa-gamepad"></i>
+                                游戏APP
+                            </div>
+                            <div class='row'>
+                                <notempty name="fp">
+                                <a class="btn btn-default link_copy_btn" data-clipboard-text="{$fp}" href="javascript:;">复制游戏app链接</a>
+                                <a class="btn btn-default" href="{$fp}" target="_blank">游戏app下载</a>
+								<a class='btn btn-success' id="geneappbtn">更新游戏APP</a>
+								<else />
+								 <a class='btn btn-success' id="geneappbtn">申请游戏APP</a>
+                                </notempty>
+                              
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <div class="row" style="border:none;color:red;font-size:14px;margin-top:20px;padding:20px;">
+                        <h4 style="color:red;">提示</h4>
+                        <br />
+                        <p>1、复制推广链接，玩家在该页面注册的账号归属于您的渠道下，后续充值将获得收益；</p>
+                        <p>2、推广APP为您的专属APP，玩家在该APP下载游戏，并在游戏注册账号，归属于您的渠道下，后续充值将获得收益；</p>
+                        <p>3、为确保您的利益，在使用上述两种推广方式前，可自行测试，并查看数据的准确性。</p>
+                    </div>
+                </div>
+            </div>        
+        </div>
+    </div>
+</section>
+<script src="__PUBLIC__/js/clipboard.min.js"></script>
+<script src="__PUBLIC__/huoshu/clipboard.js"></script>
+<script>
+    $("nav .main_nav li").eq(2).addClass("active").siblings().removeClass("active");
+    
+    
+    
+    $("#geneappbtn").click(function(){
+        $.post("{:U('Agent/Promote/dopack_remote')}",{"type":"new"},function(data){
+
+        yxalert(data.msg);
+        setTimeout(function(){location.reload();},1000);
+            
+        });
+    });
+</script>
+
+
+<agenttpl file="user_center_footer" />
+

@@ -1,0 +1,62 @@
+[ 2017-08-26T11:43:38+08:00 ] 127.0.0.1 /apply.php/Front/Index/ServerList?p=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002379s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0027s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0024s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_web_server` [ RunTime:0.0026s ]
+SQL: SELECT ws.*,g.name as game_name,FROM_UNIXTIME(ws.start_time,'%Y-%m-%d %H:%i:%s') as start_time FROM c_web_server ws LEFT JOIN c_game g ON g.id=ws.app_id  WHERE ws.is_delete = 2 ORDER BY ws.start_time desc  [ RunTime:0.0019s ]
+SQL: SELECT ws.*,g.name as game_name,FROM_UNIXTIME(ws.start_time,'%Y-%m-%d %H:%i:%s') as start_time FROM c_web_server ws LEFT JOIN c_game g ON g.id=ws.app_id  WHERE ws.is_delete = 2 ORDER BY ws.start_time desc LIMIT 0,7   [ RunTime:0.0006s ]
+NOTIC: [8] A non well formed numeric value encountered F:\huosu\huosdk\apply\app\Front\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] A non well formed numeric value encountered F:\huosu\huosdk\apply\app\Front\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] A non well formed numeric value encountered F:\huosu\huosdk\apply\app\Front\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] A non well formed numeric value encountered F:\huosu\huosdk\apply\app\Front\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] A non well formed numeric value encountered F:\huosu\huosdk\apply\app\Front\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] A non well formed numeric value encountered F:\huosu\huosdk\apply\app\Front\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] A non well formed numeric value encountered F:\huosu\huosdk\apply\app\Front\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: url F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [8] Undefined index: status F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 25 行.
+NOTIC: [8] Undefined index: status F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 27 行.
+NOTIC: [8] Undefined index: AGENT_ID F:\huosu\huosdk\apply\app\Common\Common\function.php 第 102 行.
+NOTIC: [8] Undefined index: name F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `c_admin_operate_log` [ RunTime:0.0331s ]
+SQL: INSERT INTO `c_admin_operate_log` (`user_id`,`username`,`action`,`create_time`,`type`,`ip`,`addr`,`param`,`remark`) VALUES ('0',NULL,'Front-Index-ServerList','1503719018','2','127.0.0.1','未分配或者内网IP内网IP 内网IP','GET:{\"p\":\"1\"}; POST:[]','{\"items\":\"<div class=\\\"row server_item\\\"><div class=\\\"col-xs-4\\\">\\u7f25\\u7f08\\u4ed9\\u57df <\\/div><div class=\\\"col-xs-4\\\">S1\\u670d <\\/div><div class=\\\"col-xs-4\\\">1970-01-01 08:33:37 <\\/div><\\/div><div class=\\\"row server_item\\\"><div class=\\\"col-xs-4\\\">\\u4f20\\u5947\\u6765\\u4e86 <\\/div><div class=\\\"col-xs-4\\\">S1\\u670d <\\/div><div class=\\\"col-xs-4\\\">1970-01-01 08:33:37 <\\/div><\\/div><div class=\\\"row server_item\\\"><div class=\\\"col-xs-4\\\">\\u6f2b\\u753b\\u82f1\\u96c43D <\\/div><div class=\\\"col-xs-4\\\">S1\\u670d <\\/div><div class=\\\"col-xs-4\\\">1970-01-01 08:33:37 <\\/div><\\/div><div class=\\\"row server_item\\\"><div class=\\\"col-xs-4\\\">\\u6307\\u5c16\\u6740\\u622e <\\/div><div class=\\\"col-xs-4\\\">S1\\u670d <\\/div><div class=\\\"col-xs-4\\\">1970-01-01 08:33:37 <\\/div><\\/div><div class=\\\"row server_item\\\"><div class=\\\"col-xs-4\\\">\\u4e71\\u6218\\u4e09\\u56fd <\\/div><div class=\\\"col-xs-4\\\">S1\\u670d <\\/div><div class=\\\"col-xs-4\\\">1970-01-01 08:33:37 <\\/div><\\/div><div class=\\\"row server_item\\\"><div class=\\\"col-xs-4\\\">\\u8bf8\\u795e\\u4e4b\\u5dc5 <\\/div><div class=\\\"col-xs-4\\\">S1\\u670d <\\/div><div class=\\\"col-xs-4\\\">1970-01-01 08:33:37 <\\/div><\\/div><div class=\\\"row server_item\\\"><div class=\\\"col-xs-4\\\">\\u6b7b\\u795e\\u5883\\u754c <\\/div><div class=\\\"col-xs-4\\\">S1\\u670d <\\/div><div class=\\\"col-xs-4\\\">1970-01-01 08:33:37 <\\/div><\\/div>\",\"max_p\":18}') [ RunTime:0.0879s ]
+
+[ 2017-08-26T11:43:46+08:00 ] 127.0.0.1 /apply.php/Front/account/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.1065s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0071s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0401s ]
+SQL: SELECT * FROM `c_users` WHERE ( (user_login='test1') AND (user_pass='###6273f84dcbb69147e44243301f3811b9') AND ( (user_type = '6') OR (user_type = '7') )  ) LIMIT 1   [ RunTime:0.0373s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '279' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `c_admin_login_log` [ RunTime:0.0490s ]
+SQL: INSERT INTO `c_admin_login_log` (`user_id`,`ip`,`type`,`login_time`,`deviceinfo`,`addr`) VALUES ('279','127.0.0.1','1','1503719026','Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36','未分配或者内网IP内网IP 内网IP') [ RunTime:0.0652s ]
+SQL: UPDATE `c_users` SET `last_login_time`='2017-08-26 11:43:46' WHERE `id` = '279' [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: url F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [8] Undefined index: status F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 25 行.
+NOTIC: [8] Undefined index: status F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 27 行.
+NOTIC: [8] Undefined index: AGENT_ID F:\huosu\huosdk\apply\app\Common\Common\function.php 第 102 行.
+NOTIC: [8] Undefined index: name F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `c_admin_operate_log` [ RunTime:0.0068s ]
+SQL: INSERT INTO `c_admin_operate_log` (`user_id`,`username`,`action`,`create_time`,`type`,`ip`,`addr`,`param`,`remark`) VALUES ('0',NULL,'Front-Account-do_login','1503719026','2','127.0.0.1','未分配或者内网IP内网IP 内网IP','GET:[]; POST:{\"userName\":\"test1\",\"userPass\":\"qwe123\",\"checkCode\":\"jfkq\"}','登陆成功') [ RunTime:0.0007s ]
+

@@ -1,0 +1,98 @@
+<style>
+    .side_btns{
+        width:162px;
+        margin:10px auto 10px auto;
+    }
+    .side_btns .row{
+        margin:5px auto;
+        padding:5px 0;
+        text-align:center;
+    }   
+    .side_btns button{
+        width:100px;
+        margin:0 auto;
+    }
+    </style>
+<div class="center_left">
+    <!--<div class="container side_btns">       
+        <div class="row">
+            <button class="btn btn-warning" onclick="location.href='{:U('Agent/money/recharge_member')}'">充值</button>    
+        </div>
+        <?php
+        if(C("G_WITHDRAW_EN")){ 
+        ?>
+        <div class="row">
+        <button class="btn btn-info" onclick="location.href='{:U('Agent/settle/index')}'">提现</button>    
+        </div>
+        <?php } ?>
+    </div>-->
+    
+    
+    <div class="aside_nav">
+        <ul>
+            <h3><em class="fa fa-file normal"></em><span>资源管理</span></h3>
+            <li id="Game_apply_game"><a href="{:U('Agent/Game/apply_game')}">添加游戏</a></li>
+            <li id="Game_mygames"><a href="{:U('Agent/Game/mygames')}">我的游戏</a></li>
+            <!--<li id="Benefit_set"><a href="{:U('Agent/Benefit/set')}">我的优惠</a></li>-->
+            <!--<li id="generateApp"><a href="{:U('User/Game/generateApp')}">生成APP</a></li>-->
+        </ul>
+        <!--<ul class="user_management">
+            <h3><em class="fa fa-sitemap normal"></em><span>推广中心</span></h3>
+            <li id="promote_plink"><a href="{:U('Agent/promote/plink')}">推广链接</a></li>
+        </ul>-->
+         <ul class="Date_center">
+            <h3><em class="fa fa-bar-chart normal"></em><span>数据中心</span></h3>
+            <li id="DataMemAccount_index"><a href="{:U('Agent/DataMemAccount/index')}">玩家帐号明细</a></li>
+            <!--<li id="Data_member"><a href="{:U('Agent/Data/member')}">玩家注册明细</a></li>-->
+            <!--<li id="memGmRechargeRecord"><a href="{:U('Agent/Data/memGmRechargeRecord')}">玩家充值订单记录</a></li>-->
+            <!--<li id="DataMemCharge_index"><a href="{:U('Agent/DataMemCharge/index')}">玩家充值明细</a></li>-->
+            <li id="DataReport_index"><a href="{:U('Agent/DataReport/index')}">统计报表</a></li>
+            
+<!--            <li id="Data_getUserPayment"><a href="{:U('Agent/Data/getUserPayment')}">玩家{:C(CURRENCY_NAME)}充值明细</a></li>
+            <li id="Data_getGamePTBCheck"><a href="{:U('Agent/Data/getGamePTBCheck')}">玩家{:C(CURRENCY_NAME)}消费明细</a></li>
+            <li id="Data_PtbAgentChargeRecord"><a href="{:U('Agent/Data/PtbAgentChargeRecord')}">渠道{:C(CURRENCY_NAME)}充值明细</a></li>
+            <li id="Data_getUserPTBValidityDuration"><a href="{:U('Agent/Data/getUserPTBValidityDuration')}">玩家{:C(CURRENCY_NAME)}余额</a></li>-->
+        </ul>
+        
+        <!--<ul class="user_agent">
+            <h3><em class="fa fa-money normal"></em><span>平台币管理</span></h3>
+            <li id="DataAgentForMem_all"><a href="{:U('Agent/DataAgentForMem/all')}">给玩家充值记录</a></li>
+            <!--<li id="DataPtbAgentForSub_index"><a href="{:U('Agent/DataPtbAgentForSub/index')}">子渠道发币记录</a></li>
+            <li id="DataPtbAgentChargeRecords_index"><a href="{:U('Agent/DataPtbAgentChargeRecords/index')}">平台币入账记录</a></li>
+            <!--<li id="ucenter_subAgentInfo"><a href="{:U('Agent/ucenter/subAgentInfo')}">渠道信息</a></li>
+        </ul>-->
+        
+        <ul class="user_agent">
+            <h3 style="cursor: pointer;"><em class="fa fa-group normal"></em><span>渠道管理</span></h3>
+            <li id="Ucenter_subAgent" class="active" style="display: list-item;"><a href="/apply.php/Agent/Ucenter/subAgent">渠道列表</a></li>
+            <!--<li id="ucenter_subAgentInfo"><a href="/apply.php/Agent/ucenter/subAgentInfo">渠道信息</a></li>-->
+        </ul>
+        
+       <ul class="user_management">
+            <h3><em class="fa fa-gears normal"></em><span>账户管理</span></h3>
+            <li id="ucenter_security"><a href="{:U('Agent/ucenter/security')}">安全中心</a></li>
+<!--            <li id="SubAccount_setPassword"><a href="{:U('Agent/SubAccount/setPassword')}">登录密码</a></li>
+            <li id="SubAccount_setPayPwd"><a href="{:U('Agent/SubAccount/setPayPwd')}">支付密码</a></li>
+            <li id="SubAccount_bindEmail"><a href="{:U('Agent/SubAccount/bindEmail')}">绑定邮箱</a></li>
+            <li id="SubAccount_bindPhone"><a href="{:U('Agent/SubAccount/bindPhone')}">绑定手机</a></li>-->
+        </ul>
+    </div>
+    
+    <script>
+        var current_li="{:I('path.0')}_{:I('path.1')}";   
+        succAsideID(current_li);  
+        
+        $(".aside_nav ul h3").css("cursor","pointer");
+        $(".aside_nav li").hide();
+        $(".aside_nav li").each(function(){
+            var id=$(this).attr("id");
+            if(id===current_li){
+                $("#"+id).parent("ul").children("li").show();
+            }
+        });
+        $(".aside_nav ul h3").click(function(){
+            $(".aside_nav li").hide();
+            $(this).parent("ul").children("li").show();
+        });
+    </script>
+</div>

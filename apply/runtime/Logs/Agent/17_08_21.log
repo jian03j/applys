@@ -1,0 +1,1223 @@
+[ 2017-08-21T16:49:11+08:00 ] 127.0.0.1 /apply.php/Agent/Ucenter/addSub_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0031s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0029s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '279' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '279' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c_users` WHERE `user_login` = 'tcpa' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: url F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [8] Undefined index: status F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 25 行.
+NOTIC: [8] Undefined index: status F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 27 行.
+NOTIC: [8] Undefined index: AGENT_ID F:\huosu\huosdk\apply\app\Common\Common\function.php 第 102 行.
+NOTIC: [8] Undefined index: name F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `c_admin_operate_log` [ RunTime:0.0031s ]
+SQL: INSERT INTO `c_admin_operate_log` (`user_id`,`username`,`action`,`create_time`,`type`,`ip`,`addr`,`param`,`remark`) VALUES ('0',NULL,'Agent-Ucenter-addSub_post','1503305350','2','127.0.0.1','未分配或者内网IP内网IP 内网IP','GET:[]; POST:{\"user_login\":\"tcpa\",\"name\":\"testaaaa\",\"pass\":\"qwe123\"}','此用户名已经使用过') [ RunTime:0.0003s ]
+
+[ 2017-08-21T16:53:13+08:00 ] 127.0.0.1 /apply.php/Agent/Ucenter/addSub_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001840s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0028s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0029s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '279' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '279' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c_users` WHERE `user_login` = 'tcpa' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: url F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [8] Undefined index: status F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 25 行.
+NOTIC: [8] Undefined index: status F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 27 行.
+NOTIC: [8] Undefined index: AGENT_ID F:\huosu\huosdk\apply\app\Common\Common\function.php 第 102 行.
+NOTIC: [8] Undefined index: name F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `c_admin_operate_log` [ RunTime:0.0028s ]
+SQL: INSERT INTO `c_admin_operate_log` (`user_id`,`username`,`action`,`create_time`,`type`,`ip`,`addr`,`param`,`remark`) VALUES ('0',NULL,'Agent-Ucenter-addSub_post','1503305593','2','127.0.0.1','未分配或者内网IP内网IP 内网IP','GET:[]; POST:{\"user_login\":\"tcpa\",\"name\":\"test\",\"pass\":\"qwe123\"}','此用户名已经使用过') [ RunTime:0.0003s ]
+
+[ 2017-08-21T16:59:46+08:00 ] 127.0.0.1 /apply.php/Agent/Ucenter/addSub_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.3627s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0069s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '279' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '279' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c_users` WHERE `user_login` = 'zjtest' LIMIT 1   [ RunTime:0.0008s ]
+SQL: INSERT INTO `c_users` (`user_login`,`user_nicename`,`user_pass`,`pay_pwd`,`user_type`,`user_status`,`ownerid`,`create_time`) VALUES ('zjtest','zjtest','###b5043cd9cd0a87fd9c373c85dc0c9eb4','8cb88344a60c3960978b938d429068d1','7','2','279','2017-08-21 16:59:46') [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: url F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [8] Undefined index: status F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 25 行.
+NOTIC: [8] Undefined index: status F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 27 行.
+NOTIC: [8] Undefined index: AGENT_ID F:\huosu\huosdk\apply\app\Common\Common\function.php 第 102 行.
+NOTIC: [8] Undefined index: name F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `c_admin_operate_log` [ RunTime:0.0070s ]
+SQL: INSERT INTO `c_admin_operate_log` (`user_id`,`username`,`action`,`create_time`,`type`,`ip`,`addr`,`param`,`remark`) VALUES ('0',NULL,'Agent-Ucenter-addSub_post','1503305986','2','127.0.0.1','未分配或者内网IP内网IP 内网IP','GET:[]; POST:{\"user_login\":\"zjtest\",\"name\":\"zjtest\",\"pass\":\"123123\"}','创建下级渠道成功') [ RunTime:0.0005s ]
+
+[ 2017-08-21T17:12:38+08:00 ] 127.0.0.1 /apply.php/Agent/Ucenter/addSub_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002035s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0049s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '279' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '279' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c_users` WHERE `user_login` = 'zjtest1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `c_users` (`user_login`,`user_nicename`,`user_pass`,`pay_pwd`,`user_type`,`user_status`,`ownerid`,`create_time`) VALUES ('zjtest1','zjtest1','###b5043cd9cd0a87fd9c373c85dc0c9eb4','8cb88344a60c3960978b938d429068d1','7','2','279','2017-08-21 17:12:38') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: url F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [8] Undefined index: status F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 25 行.
+NOTIC: [8] Undefined index: status F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 27 行.
+NOTIC: [8] Undefined index: AGENT_ID F:\huosu\huosdk\apply\app\Common\Common\function.php 第 102 行.
+NOTIC: [8] Undefined index: name F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `c_admin_operate_log` [ RunTime:0.0030s ]
+SQL: INSERT INTO `c_admin_operate_log` (`user_id`,`username`,`action`,`create_time`,`type`,`ip`,`addr`,`param`,`remark`) VALUES ('0',NULL,'Agent-Ucenter-addSub_post','1503306758','2','127.0.0.1','未分配或者内网IP内网IP 内网IP','GET:[]; POST:{\"user_login\":\"zjtest1\",\"name\":\"zjtest1\",\"pass\":\"123123\"}','创建下级渠道成功') [ RunTime:0.0005s ]
+
+[ 2017-08-21T17:16:29+08:00 ] 127.0.0.1 /apply.php/Agent/Ucenter/addSub_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002023s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0027s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0035s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '279' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '279' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c_users` WHERE `user_login` = 'dsafr32' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `c_users` (`user_login`,`user_nicename`,`user_pass`,`pay_pwd`,`user_type`,`user_status`,`ownerid`,`create_time`) VALUES ('dsafr32','vwaer32e','###b5043cd9cd0a87fd9c373c85dc0c9eb4','8cb88344a60c3960978b938d429068d1','7','2','279','2017-08-21 17:16:29') [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: url F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [8] Undefined index: status F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 25 行.
+NOTIC: [8] Undefined index: status F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 27 行.
+NOTIC: [8] Undefined index: AGENT_ID F:\huosu\huosdk\apply\app\Common\Common\function.php 第 102 行.
+NOTIC: [8] Undefined index: name F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `c_admin_operate_log` [ RunTime:0.0032s ]
+SQL: INSERT INTO `c_admin_operate_log` (`user_id`,`username`,`action`,`create_time`,`type`,`ip`,`addr`,`param`,`remark`) VALUES ('0',NULL,'Agent-Ucenter-addSub_post','1503306989','2','127.0.0.1','未分配或者内网IP内网IP 内网IP','GET:[]; POST:{\"user_login\":\"dsafr32\",\"name\":\"vwaer32e\",\"pass\":\"123123\"}','创建下级渠道成功') [ RunTime:0.0003s ]
+
+[ 2017-08-21T17:31:40+08:00 ] 127.0.0.1 /apply.php/Agent/Ucenter/addSub_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0028s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0084s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '279' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '279' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c_users` WHERE `user_login` = 'zjtest' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: url F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [8] Undefined index: status F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 25 行.
+NOTIC: [8] Undefined index: status F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 27 行.
+NOTIC: [8] Undefined index: AGENT_ID F:\huosu\huosdk\apply\app\Common\Common\function.php 第 102 行.
+NOTIC: [8] Undefined index: name F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `c_admin_operate_log` [ RunTime:0.0027s ]
+SQL: INSERT INTO `c_admin_operate_log` (`user_id`,`username`,`action`,`create_time`,`type`,`ip`,`addr`,`param`,`remark`) VALUES ('0',NULL,'Agent-Ucenter-addSub_post','1503307900','2','127.0.0.1','未分配或者内网IP内网IP 内网IP','GET:[]; POST:{\"user_login\":\"zjtest\",\"name\":\"zjtest\",\"pass\":\"qwe123\"}','此用户名已经使用过') [ RunTime:0.0003s ]
+
+[ 2017-08-21T17:32:35+08:00 ] 127.0.0.1 /apply.php/Agent/Ucenter/addSub_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002044s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0037s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0046s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '279' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '279' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c_users` WHERE `user_login` = 'zjtest' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: url F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [8] Undefined index: status F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 25 行.
+NOTIC: [8] Undefined index: status F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 27 行.
+NOTIC: [8] Undefined index: AGENT_ID F:\huosu\huosdk\apply\app\Common\Common\function.php 第 102 行.
+NOTIC: [8] Undefined index: name F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `c_admin_operate_log` [ RunTime:0.0048s ]
+SQL: INSERT INTO `c_admin_operate_log` (`user_id`,`username`,`action`,`create_time`,`type`,`ip`,`addr`,`param`,`remark`) VALUES ('0',NULL,'Agent-Ucenter-addSub_post','1503307955','2','127.0.0.1','未分配或者内网IP内网IP 内网IP','GET:[]; POST:{\"user_login\":\"zjtest\",\"name\":\"zjtest\",\"pass\":\"qwe123\"}','此用户名已经使用过1') [ RunTime:0.0003s ]
+
+[ 2017-08-21T17:33:36+08:00 ] 127.0.0.1 /apply.php/Agent/Ucenter/addSub_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0060s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0033s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '279' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '279' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c_users` WHERE `user_login` = 'zjtestvv' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `c_users` (`user_login`,`user_nicename`,`user_pass`,`pay_pwd`,`user_type`,`user_status`,`ownerid`,`create_time`,`user_property`) VALUES ('zjtestvv','zjtestvv','###b5043cd9cd0a87fd9c373c85dc0c9eb4','8cb88344a60c3960978b938d429068d1','7','2','279','2017-08-21 17:33:36','4') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: url F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [8] Undefined index: status F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 25 行.
+NOTIC: [8] Undefined index: status F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 27 行.
+NOTIC: [8] Undefined index: AGENT_ID F:\huosu\huosdk\apply\app\Common\Common\function.php 第 102 行.
+NOTIC: [8] Undefined index: name F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `c_admin_operate_log` [ RunTime:0.0034s ]
+SQL: INSERT INTO `c_admin_operate_log` (`user_id`,`username`,`action`,`create_time`,`type`,`ip`,`addr`,`param`,`remark`) VALUES ('0',NULL,'Agent-Ucenter-addSub_post','1503308016','2','127.0.0.1','未分配或者内网IP内网IP 内网IP','GET:[]; POST:{\"user_login\":\"zjtestvv\",\"name\":\"zjtestvv\",\"pass\":\"123123\"}','创建下级渠道成功') [ RunTime:0.0004s ]
+
+[ 2017-08-21T17:35:38+08:00 ] 127.0.0.1 /apply.php/Agent/Ucenter/addSub_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001797s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0030s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0025s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '279' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '279' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c_users` WHERE `user_login` = 'zjtest3' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant user_property - assumed 'user_property' F:\huosu\huosdk\thinkphp\Core\Library\Huosdk\Agent.class.php 第 97 行.
+SQL: INSERT INTO `c_users` (`user_login`,`user_nicename`,`user_pass`,`pay_pwd`,`user_type`,`user_status`,`ownerid`,`create_time`,`user_property`) VALUES ('zjtest3','zjtest3','###b5043cd9cd0a87fd9c373c85dc0c9eb4','8cb88344a60c3960978b938d429068d1','7','2','279','2017-08-21 17:35:38','0') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: url F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [8] Undefined index: status F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 25 行.
+NOTIC: [8] Undefined index: status F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 27 行.
+NOTIC: [8] Undefined index: AGENT_ID F:\huosu\huosdk\apply\app\Common\Common\function.php 第 102 行.
+NOTIC: [8] Undefined index: name F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `c_admin_operate_log` [ RunTime:0.0024s ]
+SQL: INSERT INTO `c_admin_operate_log` (`user_id`,`username`,`action`,`create_time`,`type`,`ip`,`addr`,`param`,`remark`) VALUES ('0',NULL,'Agent-Ucenter-addSub_post','1503308138','2','127.0.0.1','未分配或者内网IP内网IP 内网IP','GET:[]; POST:{\"user_login\":\"zjtest3\",\"name\":\"zjtest3\",\"pass\":\"123123\"}','创建下级渠道成功') [ RunTime:0.0002s ]
+
+[ 2017-08-21T17:36:47+08:00 ] 127.0.0.1 /apply.php/Agent/Ucenter/addSub_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001962s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0037s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0037s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '279' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '279' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c_users` WHERE `user_login` = 'zjtest321' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `c_users` (`user_login`,`user_nicename`,`user_pass`,`pay_pwd`,`user_type`,`user_status`,`ownerid`,`create_time`,`user_property`) VALUES ('zjtest321','zjtest321','###3eb300f1a73a44c555eb16622f02d487','63ea0fba1012fefdd8e2b2e6b4956c7a','7','2','279','2017-08-21 17:36:47','4') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: url F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 24 行.
+NOTIC: [8] Undefined index: status F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 25 行.
+NOTIC: [8] Undefined index: status F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 27 行.
+NOTIC: [8] Undefined index: AGENT_ID F:\huosu\huosdk\apply\app\Common\Common\function.php 第 102 行.
+NOTIC: [8] Undefined index: name F:\huosu\huosdk\apply\app\Common\Controller\AppframeController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `c_admin_operate_log` [ RunTime:0.0025s ]
+SQL: INSERT INTO `c_admin_operate_log` (`user_id`,`username`,`action`,`create_time`,`type`,`ip`,`addr`,`param`,`remark`) VALUES ('0',NULL,'Agent-Ucenter-addSub_post','1503308207','2','127.0.0.1','未分配或者内网IP内网IP 内网IP','GET:[]; POST:{\"user_login\":\"zjtest321\",\"name\":\"zjtest321\",\"pass\":\"qweqwe\"}','创建下级渠道成功') [ RunTime:0.0002s ]
+
+[ 2017-08-21T17:42:29+08:00 ] 127.0.0.1 /apply.php/Agent/money/recharge_member
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002184s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0025s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0026s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_ptb_agent` [ RunTime:0.0024s ]
+SQL: SELECT `remain` FROM `c_ptb_agent` WHERE `agent_id` = 289 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE `option_name` = 'agent_withdraw_base' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_settle` [ RunTime:0.0029s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `c_settle` WHERE `agent_id` = 289 AND ( status=1 or status=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_agent_ext` [ RunTime:0.0048s ]
+SQL: SELECT `share_remain` FROM `c_agent_ext` WHERE `agent_id` = 289 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( option_name='self_help_pay' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-21T17:42:29+08:00 ] 127.0.0.1 /apply.php/Agent/Game/mygames
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0023s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0022s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_agent_game` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM c_agent_game ag LEFT JOIN c_game g ON g.id=ag.app_id  WHERE ( (ag.agent_id = 289) AND (g.is_delete=2) AND (g.status=2) AND (g.promote_switch=2)  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT ag.*,g.name as gamename,g.initial,agr.agent_rate FROM c_agent_game ag LEFT JOIN c_game g ON g.id=ag.app_id LEFT JOIN c_game_version gv ON gv.app_id=ag.app_id LEFT JOIN c_agent_game_rate agr ON agr.ag_id=ag.id  WHERE ( (ag.agent_id = 289) AND (g.is_delete=2) AND (g.status=2) AND (g.promote_switch=2)  ) ORDER BY ag.update_time desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 267 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 268 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 269 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 270 行.
+NOTIC: [8] Undefined index: gamename F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 408 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2017-08-21T17:42:33+08:00 ] 127.0.0.1 /apply.php/Agent/money/recharge_member
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001455s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0033s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0023s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_ptb_agent` [ RunTime:0.0024s ]
+SQL: SELECT `remain` FROM `c_ptb_agent` WHERE `agent_id` = 289 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE `option_name` = 'agent_withdraw_base' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `c_settle` [ RunTime:0.0025s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `c_settle` WHERE `agent_id` = 289 AND ( status=1 or status=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `c_agent_ext` [ RunTime:0.0025s ]
+SQL: SELECT `share_remain` FROM `c_agent_ext` WHERE `agent_id` = 289 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( option_name='self_help_pay' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-21T17:42:33+08:00 ] 127.0.0.1 /apply.php/Agent/Game/mygames
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001896s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0027s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0022s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_agent_game` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM c_agent_game ag LEFT JOIN c_game g ON g.id=ag.app_id  WHERE ( (ag.agent_id = 289) AND (g.is_delete=2) AND (g.status=2) AND (g.promote_switch=2)  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT ag.*,g.name as gamename,g.initial,agr.agent_rate FROM c_agent_game ag LEFT JOIN c_game g ON g.id=ag.app_id LEFT JOIN c_game_version gv ON gv.app_id=ag.app_id LEFT JOIN c_agent_game_rate agr ON agr.ag_id=ag.id  WHERE ( (ag.agent_id = 289) AND (g.is_delete=2) AND (g.status=2) AND (g.promote_switch=2)  ) ORDER BY ag.update_time desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 267 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 268 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 269 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 270 行.
+NOTIC: [8] Undefined index: gamename F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 408 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2017-08-21T17:43:09+08:00 ] 127.0.0.1 /apply.php/Agent/money/recharge_member
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0028s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0022s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_ptb_agent` [ RunTime:0.0022s ]
+SQL: SELECT `remain` FROM `c_ptb_agent` WHERE `agent_id` = 289 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE `option_name` = 'agent_withdraw_base' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_settle` [ RunTime:0.0029s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `c_settle` WHERE `agent_id` = 289 AND ( status=1 or status=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_agent_ext` [ RunTime:0.0033s ]
+SQL: SELECT `share_remain` FROM `c_agent_ext` WHERE `agent_id` = 289 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( option_name='self_help_pay' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-21T17:43:09+08:00 ] 127.0.0.1 /apply.php/Agent/Game/mygames
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0041s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0029s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_agent_game` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM c_agent_game ag LEFT JOIN c_game g ON g.id=ag.app_id  WHERE ( (ag.agent_id = 289) AND (g.is_delete=2) AND (g.status=2) AND (g.promote_switch=2)  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT ag.*,g.name as gamename,g.initial,agr.agent_rate FROM c_agent_game ag LEFT JOIN c_game g ON g.id=ag.app_id LEFT JOIN c_game_version gv ON gv.app_id=ag.app_id LEFT JOIN c_agent_game_rate agr ON agr.ag_id=ag.id  WHERE ( (ag.agent_id = 289) AND (g.is_delete=2) AND (g.status=2) AND (g.promote_switch=2)  ) ORDER BY ag.update_time desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 267 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 268 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 269 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 270 行.
+NOTIC: [8] Undefined index: gamename F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 408 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2017-08-21T17:43:13+08:00 ] 127.0.0.1 /apply.php/Agent/money/recharge_member
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0026s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0025s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_ptb_agent` [ RunTime:0.0024s ]
+SQL: SELECT `remain` FROM `c_ptb_agent` WHERE `agent_id` = 289 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE `option_name` = 'agent_withdraw_base' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_settle` [ RunTime:0.0034s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `c_settle` WHERE `agent_id` = 289 AND ( status=1 or status=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_agent_ext` [ RunTime:0.0028s ]
+SQL: SELECT `share_remain` FROM `c_agent_ext` WHERE `agent_id` = 289 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( option_name='self_help_pay' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-21T17:43:13+08:00 ] 127.0.0.1 /apply.php/Agent/Game/mygames
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002196s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0032s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_agent_game` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM c_agent_game ag LEFT JOIN c_game g ON g.id=ag.app_id  WHERE ( (ag.agent_id = 289) AND (g.is_delete=2) AND (g.status=2) AND (g.promote_switch=2)  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT ag.*,g.name as gamename,g.initial,agr.agent_rate FROM c_agent_game ag LEFT JOIN c_game g ON g.id=ag.app_id LEFT JOIN c_game_version gv ON gv.app_id=ag.app_id LEFT JOIN c_agent_game_rate agr ON agr.ag_id=ag.id  WHERE ( (ag.agent_id = 289) AND (g.is_delete=2) AND (g.status=2) AND (g.promote_switch=2)  ) ORDER BY ag.update_time desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 267 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 268 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 269 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 270 行.
+NOTIC: [8] Undefined index: gamename F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 408 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2017-08-21T17:43:13+08:00 ] 127.0.0.1 /apply.php/Agent/money/recharge_member
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0031s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_ptb_agent` [ RunTime:0.0029s ]
+SQL: SELECT `remain` FROM `c_ptb_agent` WHERE `agent_id` = 289 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE `option_name` = 'agent_withdraw_base' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_settle` [ RunTime:0.0031s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `c_settle` WHERE `agent_id` = 289 AND ( status=1 or status=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `c_agent_ext` [ RunTime:0.0028s ]
+SQL: SELECT `share_remain` FROM `c_agent_ext` WHERE `agent_id` = 289 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( option_name='self_help_pay' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-21T17:43:13+08:00 ] 127.0.0.1 /apply.php/Agent/Game/mygames
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0031s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0038s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_agent_game` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM c_agent_game ag LEFT JOIN c_game g ON g.id=ag.app_id  WHERE ( (ag.agent_id = 289) AND (g.is_delete=2) AND (g.status=2) AND (g.promote_switch=2)  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT ag.*,g.name as gamename,g.initial,agr.agent_rate FROM c_agent_game ag LEFT JOIN c_game g ON g.id=ag.app_id LEFT JOIN c_game_version gv ON gv.app_id=ag.app_id LEFT JOIN c_agent_game_rate agr ON agr.ag_id=ag.id  WHERE ( (ag.agent_id = 289) AND (g.is_delete=2) AND (g.status=2) AND (g.promote_switch=2)  ) ORDER BY ag.update_time desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 267 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 268 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 269 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 270 行.
+NOTIC: [8] Undefined index: gamename F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 408 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2017-08-21T17:43:14+08:00 ] 127.0.0.1 /apply.php/Agent/money/recharge_member
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0031s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0041s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_ptb_agent` [ RunTime:0.0028s ]
+SQL: SELECT `remain` FROM `c_ptb_agent` WHERE `agent_id` = 289 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE `option_name` = 'agent_withdraw_base' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_settle` [ RunTime:0.0030s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `c_settle` WHERE `agent_id` = 289 AND ( status=1 or status=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_agent_ext` [ RunTime:0.0030s ]
+SQL: SELECT `share_remain` FROM `c_agent_ext` WHERE `agent_id` = 289 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( option_name='self_help_pay' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-21T17:43:14+08:00 ] 127.0.0.1 /apply.php/Agent/money/recharge_member
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0026s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0027s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_ptb_agent` [ RunTime:0.0034s ]
+SQL: SELECT `remain` FROM `c_ptb_agent` WHERE `agent_id` = 289 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE `option_name` = 'agent_withdraw_base' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_settle` [ RunTime:0.0027s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `c_settle` WHERE `agent_id` = 289 AND ( status=1 or status=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_agent_ext` [ RunTime:0.0034s ]
+SQL: SELECT `share_remain` FROM `c_agent_ext` WHERE `agent_id` = 289 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( option_name='self_help_pay' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-08-21T17:43:14+08:00 ] 127.0.0.1 /apply.php/Agent/Game/mygames
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0033s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0024s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_agent_game` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM c_agent_game ag LEFT JOIN c_game g ON g.id=ag.app_id  WHERE ( (ag.agent_id = 289) AND (g.is_delete=2) AND (g.status=2) AND (g.promote_switch=2)  ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT ag.*,g.name as gamename,g.initial,agr.agent_rate FROM c_agent_game ag LEFT JOIN c_game g ON g.id=ag.app_id LEFT JOIN c_game_version gv ON gv.app_id=ag.app_id LEFT JOIN c_agent_game_rate agr ON agr.ag_id=ag.id  WHERE ( (ag.agent_id = 289) AND (g.is_delete=2) AND (g.status=2) AND (g.promote_switch=2)  ) ORDER BY ag.update_time desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 267 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 268 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 269 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 270 行.
+NOTIC: [8] Undefined index: gamename F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 408 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2017-08-21T17:43:14+08:00 ] 127.0.0.1 /apply.php/Agent/Game/mygames
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0023s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0043s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_agent_game` [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM c_agent_game ag LEFT JOIN c_game g ON g.id=ag.app_id  WHERE ( (ag.agent_id = 289) AND (g.is_delete=2) AND (g.status=2) AND (g.promote_switch=2)  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT ag.*,g.name as gamename,g.initial,agr.agent_rate FROM c_agent_game ag LEFT JOIN c_game g ON g.id=ag.app_id LEFT JOIN c_game_version gv ON gv.app_id=ag.app_id LEFT JOIN c_agent_game_rate agr ON agr.ag_id=ag.id  WHERE ( (ag.agent_id = 289) AND (g.is_delete=2) AND (g.status=2) AND (g.promote_switch=2)  ) ORDER BY ag.update_time desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 267 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 268 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 269 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 270 行.
+NOTIC: [8] Undefined index: gamename F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 408 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2017-08-21T17:43:14+08:00 ] 127.0.0.1 /apply.php/Agent/money/recharge_member
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002074s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0025s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0023s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_ptb_agent` [ RunTime:0.0022s ]
+SQL: SELECT `remain` FROM `c_ptb_agent` WHERE `agent_id` = 289 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE `option_name` = 'agent_withdraw_base' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_settle` [ RunTime:0.0030s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `c_settle` WHERE `agent_id` = 289 AND ( status=1 or status=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_agent_ext` [ RunTime:0.0029s ]
+SQL: SELECT `share_remain` FROM `c_agent_ext` WHERE `agent_id` = 289 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( option_name='self_help_pay' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-08-21T17:43:14+08:00 ] 127.0.0.1 /apply.php/Agent/money/recharge_member
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0032s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0024s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_ptb_agent` [ RunTime:0.0024s ]
+SQL: SELECT `remain` FROM `c_ptb_agent` WHERE `agent_id` = 289 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE `option_name` = 'agent_withdraw_base' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_settle` [ RunTime:0.0029s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `c_settle` WHERE `agent_id` = 289 AND ( status=1 or status=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_agent_ext` [ RunTime:0.0025s ]
+SQL: SELECT `share_remain` FROM `c_agent_ext` WHERE `agent_id` = 289 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( option_name='self_help_pay' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-21T17:43:14+08:00 ] 127.0.0.1 /apply.php/Agent/Game/mygames
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0029s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0027s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_agent_game` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM c_agent_game ag LEFT JOIN c_game g ON g.id=ag.app_id  WHERE ( (ag.agent_id = 289) AND (g.is_delete=2) AND (g.status=2) AND (g.promote_switch=2)  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT ag.*,g.name as gamename,g.initial,agr.agent_rate FROM c_agent_game ag LEFT JOIN c_game g ON g.id=ag.app_id LEFT JOIN c_game_version gv ON gv.app_id=ag.app_id LEFT JOIN c_agent_game_rate agr ON agr.ag_id=ag.id  WHERE ( (ag.agent_id = 289) AND (g.is_delete=2) AND (g.status=2) AND (g.promote_switch=2)  ) ORDER BY ag.update_time desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 267 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 268 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 269 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 270 行.
+NOTIC: [8] Undefined index: gamename F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 408 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2017-08-21T17:43:14+08:00 ] 127.0.0.1 /apply.php/Agent/money/recharge_member
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0022s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0026s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_ptb_agent` [ RunTime:0.0023s ]
+SQL: SELECT `remain` FROM `c_ptb_agent` WHERE `agent_id` = 289 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE `option_name` = 'agent_withdraw_base' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_settle` [ RunTime:0.0022s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `c_settle` WHERE `agent_id` = 289 AND ( status=1 or status=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_agent_ext` [ RunTime:0.0034s ]
+SQL: SELECT `share_remain` FROM `c_agent_ext` WHERE `agent_id` = 289 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( option_name='self_help_pay' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-21T17:43:14+08:00 ] 127.0.0.1 /apply.php/Agent/Game/mygames
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0022s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_agent_game` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM c_agent_game ag LEFT JOIN c_game g ON g.id=ag.app_id  WHERE ( (ag.agent_id = 289) AND (g.is_delete=2) AND (g.status=2) AND (g.promote_switch=2)  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT ag.*,g.name as gamename,g.initial,agr.agent_rate FROM c_agent_game ag LEFT JOIN c_game g ON g.id=ag.app_id LEFT JOIN c_game_version gv ON gv.app_id=ag.app_id LEFT JOIN c_agent_game_rate agr ON agr.ag_id=ag.id  WHERE ( (ag.agent_id = 289) AND (g.is_delete=2) AND (g.status=2) AND (g.promote_switch=2)  ) ORDER BY ag.update_time desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 267 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 268 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 269 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 270 行.
+NOTIC: [8] Undefined index: gamename F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 408 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2017-08-21T17:43:14+08:00 ] 127.0.0.1 /apply.php/Agent/Game/mygames
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0022s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0022s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_agent_game` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM c_agent_game ag LEFT JOIN c_game g ON g.id=ag.app_id  WHERE ( (ag.agent_id = 289) AND (g.is_delete=2) AND (g.status=2) AND (g.promote_switch=2)  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT ag.*,g.name as gamename,g.initial,agr.agent_rate FROM c_agent_game ag LEFT JOIN c_game g ON g.id=ag.app_id LEFT JOIN c_game_version gv ON gv.app_id=ag.app_id LEFT JOIN c_agent_game_rate agr ON agr.ag_id=ag.id  WHERE ( (ag.agent_id = 289) AND (g.is_delete=2) AND (g.status=2) AND (g.promote_switch=2)  ) ORDER BY ag.update_time desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 267 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 268 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 269 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 270 行.
+NOTIC: [8] Undefined index: gamename F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 408 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2017-08-21T17:51:25+08:00 ] 127.0.0.1 /apply.php/Agent/Game
+ERR: 模板不存在:F:\huosu\huosdk/apply/themes/simplebootx/Agent/F/\huosu\huosdk/apply/themes/simplebootx/.html
+
+[ 2017-08-21T18:33:26+08:00 ] 127.0.0.1 /apply.php/Agent/money/recharge_member
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001909s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0028s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0024s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_ptb_agent` [ RunTime:0.0024s ]
+SQL: SELECT `remain` FROM `c_ptb_agent` WHERE `agent_id` = 289 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE `option_name` = 'agent_withdraw_base' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `c_settle` [ RunTime:0.0030s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `c_settle` WHERE `agent_id` = 289 AND ( status=1 or status=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_agent_ext` [ RunTime:0.0022s ]
+SQL: SELECT `share_remain` FROM `c_agent_ext` WHERE `agent_id` = 289 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( option_name='self_help_pay' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-21T18:33:26+08:00 ] 127.0.0.1 /apply.php/Agent/Game/mygames
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0029s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0027s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_agent_game` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM c_agent_game ag LEFT JOIN c_game g ON g.id=ag.app_id  WHERE ( (ag.agent_id = 289) AND (g.is_delete=2) AND (g.status=2) AND (g.promote_switch=2)  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT ag.*,g.name as gamename,g.initial,agr.agent_rate FROM c_agent_game ag LEFT JOIN c_game g ON g.id=ag.app_id LEFT JOIN c_game_version gv ON gv.app_id=ag.app_id LEFT JOIN c_agent_game_rate agr ON agr.ag_id=ag.id  WHERE ( (ag.agent_id = 289) AND (g.is_delete=2) AND (g.status=2) AND (g.promote_switch=2)  ) ORDER BY ag.update_time desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000406s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 267 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 268 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 269 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 270 行.
+NOTIC: [8] Undefined index: gamename F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 408 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2017-08-21T18:35:05+08:00 ] 127.0.0.1 /apply.php/Agent/money/recharge_member
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0033s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_ptb_agent` [ RunTime:0.0025s ]
+SQL: SELECT `remain` FROM `c_ptb_agent` WHERE `agent_id` = 289 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE `option_name` = 'agent_withdraw_base' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_settle` [ RunTime:0.0025s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `c_settle` WHERE `agent_id` = 289 AND ( status=1 or status=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_agent_ext` [ RunTime:0.0024s ]
+SQL: SELECT `share_remain` FROM `c_agent_ext` WHERE `agent_id` = 289 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( option_name='self_help_pay' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-21T18:35:05+08:00 ] 127.0.0.1 /apply.php/Agent/Game/mygames
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0030s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0028s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_agent_game` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM c_agent_game ag LEFT JOIN c_game g ON g.id=ag.app_id  WHERE ( (ag.agent_id = 289) AND (g.is_delete=2) AND (g.status=2) AND (g.promote_switch=2)  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT ag.*,g.name as gamename,g.initial,agr.agent_rate FROM c_agent_game ag LEFT JOIN c_game g ON g.id=ag.app_id LEFT JOIN c_game_version gv ON gv.app_id=ag.app_id LEFT JOIN c_agent_game_rate agr ON agr.ag_id=ag.id  WHERE ( (ag.agent_id = 289) AND (g.is_delete=2) AND (g.status=2) AND (g.promote_switch=2)  ) ORDER BY ag.update_time desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 267 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 268 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 269 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 270 行.
+NOTIC: [8] Undefined index: gamename F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 408 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2017-08-21T18:35:13+08:00 ] 127.0.0.1 /apply.php/Agent/money/recharge_member
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001619s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0026s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0025s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_ptb_agent` [ RunTime:0.0036s ]
+SQL: SELECT `remain` FROM `c_ptb_agent` WHERE `agent_id` = 289 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE `option_name` = 'agent_withdraw_base' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_settle` [ RunTime:0.0025s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `c_settle` WHERE `agent_id` = 289 AND ( status=1 or status=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_agent_ext` [ RunTime:0.0024s ]
+SQL: SELECT `share_remain` FROM `c_agent_ext` WHERE `agent_id` = 289 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( option_name='self_help_pay' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-21T18:35:13+08:00 ] 127.0.0.1 /apply.php/Agent/Game/mygames
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\huosu\huosdk\thinkphp\Core\Common\functions.php 第 1265 行.
+SQL: SHOW COLUMNS FROM `c_options` [ RunTime:0.0032s ]
+SQL: SELECT `option_value` FROM `c_options` WHERE ( `option_name` = 'company_info' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `c_role` [ RunTime:0.0028s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_users` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `c_users` WHERE `id` = '289' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '渠道专员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `c_role` WHERE `name` = '公会渠道' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `c_agent_game` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM c_agent_game ag LEFT JOIN c_game g ON g.id=ag.app_id  WHERE ( (ag.agent_id = 289) AND (g.is_delete=2) AND (g.status=2) AND (g.promote_switch=2)  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT ag.*,g.name as gamename,g.initial,agr.agent_rate FROM c_agent_game ag LEFT JOIN c_game g ON g.id=ag.app_id LEFT JOIN c_game_version gv ON gv.app_id=ag.app_id LEFT JOIN c_agent_game_rate agr ON agr.ag_id=ag.id  WHERE ( (ag.agent_id = 289) AND (g.is_delete=2) AND (g.status=2) AND (g.promote_switch=2)  ) ORDER BY ag.update_time desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 267 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 268 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 269 行.
+NOTIC: [8] Use of undefined constant CURRENCY_NAME - assumed 'CURRENCY_NAME' F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 270 行.
+NOTIC: [8] Undefined index: gamename F:\huosu\huosdk\apply\runtime\Cache\Agent\0f278eea433b19ae3c34ba79a083551e.php 第 408 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
